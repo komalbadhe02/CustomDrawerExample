@@ -7,21 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2479250121DB3FA9001BF9D7 /* Webview_reference.html in Resources */ = {isa = PBXBuildFile; fileRef = 2479250021DB3FA7001BF9D7 /* Webview_reference.html */; };
 		24B5AA8921DA45D70038D946 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5AA8821DA45D70038D946 /* AppDelegate.swift */; };
-		24B5AA8B21DA45D80038D946 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5AA8A21DA45D80038D946 /* ViewController.swift */; };
 		24B5AA8E21DA45D80038D946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B5AA8C21DA45D80038D946 /* Main.storyboard */; };
 		24B5AA9021DA45EF0038D946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B5AA8F21DA45EF0038D946 /* Assets.xcassets */; };
 		24B5AA9321DA45EF0038D946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B5AA9121DA45EF0038D946 /* LaunchScreen.storyboard */; };
+		24B5AAEC21DA47B00038D946 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24B5AA9D21DA47AF0038D946 /* Roboto-Medium.ttf */; };
+		24B5AAED21DA47B00038D946 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24B5AA9E21DA47AF0038D946 /* Roboto-Light.ttf */; };
+		24B5AAEE21DA47B00038D946 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24B5AA9F21DA47AF0038D946 /* Roboto-Regular.ttf */; };
+		24B5AAEF21DA47B00038D946 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24B5AAA021DA47AF0038D946 /* Roboto-BlackItalic.ttf */; };
+		24B5AAF021DA47B00038D946 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24B5AAA121DA47AF0038D946 /* Roboto-Bold.ttf */; };
+		24B5AAFF21DA47B00038D946 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B5AAB621DA47B00038D946 /* UIView+Toast.m */; };
+		24B5AB0021DA47B00038D946 /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5AAB821DA47B00038D946 /* KYEmbedDrawerControllerSegue.swift */; };
+		24B5AB0121DA47B00038D946 /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5AAB921DA47B00038D946 /* KYDrawerController.swift */; };
+		24B5AB0221DA47B00038D946 /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5AABA21DA47B00038D946 /* KYEmbedMainControllerSegue.swift */; };
+		24B5AB0C21DA47B00038D946 /* DrawerHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5AAD121DA47B00038D946 /* DrawerHeaderTableViewCell.swift */; };
+		24B5AB0F21DA47B00038D946 /* DrawerHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24B5AAD421DA47B00038D946 /* DrawerHeaderTableViewCell.xib */; };
+		24B5AB1021DA47B00038D946 /* DrawerTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5AAD521DA47B00038D946 /* DrawerTitleTableViewCell.swift */; };
+		24B5AB1221DA47B00038D946 /* DrawerTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24B5AAD721DA47B00038D946 /* DrawerTitleTableViewCell.xib */; };
+		24B5AB1921DA47B00038D946 /* VCLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5AADF21DA47B00038D946 /* VCLoader.swift */; };
+		24B5AB1A21DA47B00038D946 /* VCHomeDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5AAE021DA47B00038D946 /* VCHomeDrawer.swift */; };
+		24B5AB1C21DA47B00038D946 /* VCLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5AAE221DA47B00038D946 /* VCLogin.swift */; };
+		24B5AB1E21DA47B00038D946 /* VCHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5AAE421DA47B00038D946 /* VCHome.swift */; };
+		24B5AB1F21DA47B00038D946 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5AAE621DA47B00038D946 /* Constants.swift */; };
+		24B5AB2121DA47B00038D946 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5AAE821DA47B00038D946 /* Extensions.swift */; };
+		24B5AB2221DA47B00038D946 /* UserHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5AAE921DA47B00038D946 /* UserHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2479250021DB3FA7001BF9D7 /* Webview_reference.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Webview_reference.html; sourceTree = "<group>"; };
 		24B5AA8521DA45D70038D946 /* Demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B5AA8821DA45D70038D946 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24B5AA8A21DA45D80038D946 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		24B5AA8D21DA45D80038D946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24B5AA8F21DA45EF0038D946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24B5AA9221DA45EF0038D946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24B5AA9421DA45EF0038D946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24B5AA9D21DA47AF0038D946 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		24B5AA9E21DA47AF0038D946 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		24B5AA9F21DA47AF0038D946 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		24B5AAA021DA47AF0038D946 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		24B5AAA121DA47AF0038D946 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		24B5AAB421DA47B00038D946 /* Demo1-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Demo1-Bridging-Header.h"; sourceTree = "<group>"; };
+		24B5AAB521DA47B00038D946 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		24B5AAB621DA47B00038D946 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		24B5AAB821DA47B00038D946 /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		24B5AAB921DA47B00038D946 /* KYDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYDrawerController.swift; sourceTree = "<group>"; };
+		24B5AABA21DA47B00038D946 /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
+		24B5AAD121DA47B00038D946 /* DrawerHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		24B5AAD421DA47B00038D946 /* DrawerHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		24B5AAD521DA47B00038D946 /* DrawerTitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerTitleTableViewCell.swift; sourceTree = "<group>"; };
+		24B5AAD721DA47B00038D946 /* DrawerTitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerTitleTableViewCell.xib; sourceTree = "<group>"; };
+		24B5AADF21DA47B00038D946 /* VCLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCLoader.swift; sourceTree = "<group>"; };
+		24B5AAE021DA47B00038D946 /* VCHomeDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCHomeDrawer.swift; sourceTree = "<group>"; };
+		24B5AAE221DA47B00038D946 /* VCLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCLogin.swift; sourceTree = "<group>"; };
+		24B5AAE421DA47B00038D946 /* VCHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCHome.swift; sourceTree = "<group>"; };
+		24B5AAE621DA47B00038D946 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		24B5AAE821DA47B00038D946 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		24B5AAE921DA47B00038D946 /* UserHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		247924FF21DB2F18001BF9D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				24B5AAE921DA47B00038D946 /* UserHandler.swift */,
+			);
+			name = Models;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		24B5AA7C21DA45D60038D946 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +105,108 @@
 		24B5AA8721DA45D70038D946 /* Demo1 */ = {
 			isa = PBXGroup;
 			children = (
+				247924FF21DB2F18001BF9D7 /* Models */,
+				24B5AB2421DA48B10038D946 /* Support Files */,
+				24B5AADC21DA47B00038D946 /* Controllers */,
+				24B5AAE521DA47B00038D946 /* HelperClasses */,
+				24B5AAA321DA47B00038D946 /* Libraries */,
+				24B5AA9B21DA47AF0038D946 /* Resources */,
+				24B5AAD021DA47B00038D946 /* views */,
 				24B5AA8821DA45D70038D946 /* AppDelegate.swift */,
-				24B5AA8A21DA45D80038D946 /* ViewController.swift */,
 				24B5AA8C21DA45D80038D946 /* Main.storyboard */,
 				24B5AA8F21DA45EF0038D946 /* Assets.xcassets */,
 				24B5AA9121DA45EF0038D946 /* LaunchScreen.storyboard */,
 				24B5AA9421DA45EF0038D946 /* Info.plist */,
 			);
 			path = Demo1;
+			sourceTree = "<group>";
+		};
+		24B5AA9B21DA47AF0038D946 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2479250021DB3FA7001BF9D7 /* Webview_reference.html */,
+				24B5AA9C21DA47AF0038D946 /* CustomeFonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		24B5AA9C21DA47AF0038D946 /* CustomeFonts */ = {
+			isa = PBXGroup;
+			children = (
+				24B5AA9D21DA47AF0038D946 /* Roboto-Medium.ttf */,
+				24B5AA9E21DA47AF0038D946 /* Roboto-Light.ttf */,
+				24B5AA9F21DA47AF0038D946 /* Roboto-Regular.ttf */,
+				24B5AAA021DA47AF0038D946 /* Roboto-BlackItalic.ttf */,
+				24B5AAA121DA47AF0038D946 /* Roboto-Bold.ttf */,
+			);
+			path = CustomeFonts;
+			sourceTree = "<group>";
+		};
+		24B5AAA321DA47B00038D946 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				24B5AAB321DA47B00038D946 /* Toast */,
+				24B5AAB721DA47B00038D946 /* KYDrawerClasses */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		24B5AAB321DA47B00038D946 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				24B5AAB521DA47B00038D946 /* UIView+Toast.h */,
+				24B5AAB621DA47B00038D946 /* UIView+Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		24B5AAB721DA47B00038D946 /* KYDrawerClasses */ = {
+			isa = PBXGroup;
+			children = (
+				24B5AAB821DA47B00038D946 /* KYEmbedDrawerControllerSegue.swift */,
+				24B5AAB921DA47B00038D946 /* KYDrawerController.swift */,
+				24B5AABA21DA47B00038D946 /* KYEmbedMainControllerSegue.swift */,
+			);
+			path = KYDrawerClasses;
+			sourceTree = "<group>";
+		};
+		24B5AAD021DA47B00038D946 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				24B5AAD121DA47B00038D946 /* DrawerHeaderTableViewCell.swift */,
+				24B5AAD421DA47B00038D946 /* DrawerHeaderTableViewCell.xib */,
+				24B5AAD521DA47B00038D946 /* DrawerTitleTableViewCell.swift */,
+				24B5AAD721DA47B00038D946 /* DrawerTitleTableViewCell.xib */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		24B5AADC21DA47B00038D946 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				24B5AADF21DA47B00038D946 /* VCLoader.swift */,
+				24B5AAE021DA47B00038D946 /* VCHomeDrawer.swift */,
+				24B5AAE221DA47B00038D946 /* VCLogin.swift */,
+				24B5AAE421DA47B00038D946 /* VCHome.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		24B5AAE521DA47B00038D946 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				24B5AAE621DA47B00038D946 /* Constants.swift */,
+				24B5AAE821DA47B00038D946 /* Extensions.swift */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		24B5AB2421DA48B10038D946 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24B5AAB421DA47B00038D946 /* Demo1-Bridging-Header.h */,
+			);
+			path = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +267,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B5AAEE21DA47B00038D946 /* Roboto-Regular.ttf in Resources */,
+				24B5AAEC21DA47B00038D946 /* Roboto-Medium.ttf in Resources */,
 				24B5AA9321DA45EF0038D946 /* LaunchScreen.storyboard in Resources */,
+				24B5AB0F21DA47B00038D946 /* DrawerHeaderTableViewCell.xib in Resources */,
+				24B5AAEF21DA47B00038D946 /* Roboto-BlackItalic.ttf in Resources */,
+				24B5AB1221DA47B00038D946 /* DrawerTitleTableViewCell.xib in Resources */,
+				24B5AAED21DA47B00038D946 /* Roboto-Light.ttf in Resources */,
 				24B5AA9021DA45EF0038D946 /* Assets.xcassets in Resources */,
+				24B5AAF021DA47B00038D946 /* Roboto-Bold.ttf in Resources */,
 				24B5AA8E21DA45D80038D946 /* Main.storyboard in Resources */,
+				2479250121DB3FA9001BF9D7 /* Webview_reference.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +288,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24B5AA8B21DA45D80038D946 /* ViewController.swift in Sources */,
+				24B5AB0021DA47B00038D946 /* KYEmbedDrawerControllerSegue.swift in Sources */,
+				24B5AB1021DA47B00038D946 /* DrawerTitleTableViewCell.swift in Sources */,
+				24B5AB1921DA47B00038D946 /* VCLoader.swift in Sources */,
+				24B5AB0221DA47B00038D946 /* KYEmbedMainControllerSegue.swift in Sources */,
+				24B5AB1E21DA47B00038D946 /* VCHome.swift in Sources */,
+				24B5AB1F21DA47B00038D946 /* Constants.swift in Sources */,
+				24B5AB0C21DA47B00038D946 /* DrawerHeaderTableViewCell.swift in Sources */,
+				24B5AAFF21DA47B00038D946 /* UIView+Toast.m in Sources */,
 				24B5AA8921DA45D70038D946 /* AppDelegate.swift in Sources */,
+				24B5AB2221DA47B00038D946 /* UserHandler.swift in Sources */,
+				24B5AB1C21DA47B00038D946 /* VCLogin.swift in Sources */,
+				24B5AB2121DA47B00038D946 /* Extensions.swift in Sources */,
+				24B5AB0121DA47B00038D946 /* KYDrawerController.swift in Sources */,
+				24B5AB1A21DA47B00038D946 /* VCHomeDrawer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,15 +448,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZ3C6QYLYS;
 				INFOPLIST_FILE = Demo1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.mobile.Demo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "Demo1/Support Files/Demo1-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,15 +468,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZ3C6QYLYS;
 				INFOPLIST_FILE = Demo1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.mobile.Demo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "Demo1/Support Files/Demo1-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

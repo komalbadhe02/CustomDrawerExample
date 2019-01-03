@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13528" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13526"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,16 +14,41 @@
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="scaleToFill" id="o9i-OE-6dh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rxa-3d-00b">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="tQO-qj-Oo3"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="Wcj-jJ-xCD">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Wcj-jJ-xCD" firstAttribute="top" secondItem="o9i-OE-6dh" secondAttribute="top" constant="20" id="5lR-wB-08M"/>
+                            <constraint firstItem="Rxa-3d-00b" firstAttribute="leading" secondItem="Wcj-jJ-xCD" secondAttribute="leading" id="Did-EM-Msd"/>
+                            <constraint firstItem="Wcj-jJ-xCD" firstAttribute="leading" secondItem="LID-bq-CFI" secondAttribute="leading" id="Kyw-bu-3dD"/>
+                            <constraint firstItem="Rxa-3d-00b" firstAttribute="trailing" secondItem="Wcj-jJ-xCD" secondAttribute="trailing" id="OJv-fG-REp"/>
+                            <constraint firstItem="Wcj-jJ-xCD" firstAttribute="top" secondItem="Rxa-3d-00b" secondAttribute="bottom" id="ZtC-k1-1Kz"/>
+                            <constraint firstItem="Wcj-jJ-xCD" firstAttribute="bottom" secondItem="LID-bq-CFI" secondAttribute="bottom" id="lJw-6K-FDc"/>
+                            <constraint firstItem="Wcj-jJ-xCD" firstAttribute="trailing" secondItem="LID-bq-CFI" secondAttribute="trailing" id="mF5-V2-4vy"/>
+                            <constraint firstItem="Rxa-3d-00b" firstAttribute="top" secondItem="o9i-OE-6dh" secondAttribute="top" id="nLU-bb-GXh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LID-bq-CFI"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="login" width="720" height="1200"/>
+    </resources>
 </document>
